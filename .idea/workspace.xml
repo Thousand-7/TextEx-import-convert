@@ -10,9 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6953a6fd-c412-4600-ab7e-2e14b50515fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/testEx_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,11 +72,40 @@
       <option name="project" value="LOCAL" />
       <updated>1701862512465</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Path to File in Main and import data in map.">
+      <option name="closed" value="true" />
+      <created>1701864673779</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701864673779</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hmhmhm">
+      <option name="closed" value="true" />
+      <created>1701864720081</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701864720081</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Path to File in Main and import data in map." />
     <MESSAGE value="add function importDataAndConversion." />
-    <option name="LAST_COMMIT_MESSAGE" value="add function importDataAndConversion." />
+    <MESSAGE value="hmhmhm" />
+    <option name="LAST_COMMIT_MESSAGE" value="hmhmhm" />
   </component>
 </project>

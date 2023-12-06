@@ -10,15 +10,30 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args) {
         Path pathOfFile = Paths.get("Z:\\Java\\My_Projects\\testEx\\resources\\app.properties.txt");
-        Map<String, String> conversionMap = importDataAndConversion(pathOfFile);
+        Converter converter = new Converter(pathOfFile);
+        Map<String, String> conversionMap = converter.getMap();
         System.out.println(conversionMap.toString());
 
     }
-    public static Map<String, String> importDataAndConversion(Path path){
-        try(Stream<String> stream = Files.newBufferedReader(path).lines()) {
-            return stream.map(x -> x.split("=")).collect(Collectors.toMap(x -> x[0], x-> x[1]));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+    public static class Converter{
+        private Path pathOfFile;
+        Converter(Path path){
+            pathOfFile = path;
+        }
+
+        public Path getPathOfFile() {
+            return pathOfFile;
+        }
+
+        public void setPathOfFile(Path pathOfFile) {
+            this.pathOfFile = pathOfFile;
+        }
+        public Map<String, String> getMap(){
+            try(Stream<String> stream = Files.newBufferedReader(pathOfFile).lines()) {
+                return stream.map(x -> x.split("=")).collect(Collectors.toMap(x -> x[0], x-> x[1]));
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }
