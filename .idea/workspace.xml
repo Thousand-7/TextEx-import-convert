@@ -10,12 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6953a6fd-c412-4600-ab7e-2e14b50515fe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Java/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/app.properties.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Resourses/app.properties.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,9 +52,16 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\Java\My_Projects\testEx\src\Main\Resourses" />
+      <recent name="Z:\Java\My_Projects\testEx\src\Main" />
+      <recent name="Z:\Java\My_Projects\testEx\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.Java.Main" />
       <module name="testEx" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701864720081</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="made function to class Converter">
+      <option name="closed" value="true" />
+      <created>1701871485296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701871485296</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +132,7 @@
     <MESSAGE value="add Path to File in Main and import data in map." />
     <MESSAGE value="add function importDataAndConversion." />
     <MESSAGE value="hmhmhm" />
-    <option name="LAST_COMMIT_MESSAGE" value="hmhmhm" />
+    <MESSAGE value="made function to class Converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="made function to class Converter" />
   </component>
 </project>

@@ -1,6 +1,0 @@
-1=Rashid
-kot=Murzik
-woman=Sonya
-H=vodorod
-O=kislorod
-ya=ebltvyrt
