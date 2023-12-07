@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6953a6fd-c412-4600-ab7e-2e14b50515fe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6953a6fd-c412-4600-ab7e-2e14b50515fe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701871485296</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="catalog to lowerCase">
+      <option name="closed" value="true" />
+      <created>1701945941668</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701945941668</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +135,7 @@
     <MESSAGE value="add function importDataAndConversion." />
     <MESSAGE value="hmhmhm" />
     <MESSAGE value="made function to class Converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="made function to class Converter" />
+    <MESSAGE value="catalog to lowerCase" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalog to lowerCase" />
   </component>
 </project>
