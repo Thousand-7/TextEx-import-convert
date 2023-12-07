@@ -1,4 +1,4 @@
-package com.github.thousand_7.testex_import_convert.main.java;
+package com.github.thousand_7.testex_import_convert.main;
 
 import java.io.IOException;
 import java.nio.file.Files;
