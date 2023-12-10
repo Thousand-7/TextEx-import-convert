@@ -10,8 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6953a6fd-c412-4600-ab7e-2e14b50515fe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/testEx_jar.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/thousand_7/SelectFileAndConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/thousand_7/service/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/thousand_7/service/impl/Converterimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/app.properties.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/thousand_7/testex_import_convert/main/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/thousand_7/testex_import_convert/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/thousand_7/testex_import_convert/main/resourses/app.properties.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testEx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testEx.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -44,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -56,17 +65,31 @@
       <recent name="Z:\Java\My_Projects\testEx\src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="com.github.thousand_7.testex_import_convert.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.thousand_7.testex_import_convert.main.Main" />
+  <component name="RunManager" selected="Application.SelectFileAndConvert">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.thousand_7.testeximportconvert.main.java.Main" />
       <module name="testEx" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectFileAndConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.thousand_7.SelectFileAndConvert" />
+      <module name="testEx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.thousand_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.github.thousand_7.testex_import_convert.main.Main" />
+        <item itemvalue="Application.SelectFileAndConvert" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701948528818</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix error compiler">
+      <option name="closed" value="true" />
+      <created>1701949579966</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701949579966</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +188,7 @@
     <MESSAGE value="catalog to lowerCase" />
     <MESSAGE value="restructure projects catalogs" />
     <MESSAGE value="restructure projects catalogs-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="restructure projects catalogs-1" />
+    <MESSAGE value="fix error compiler" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix error compiler" />
   </component>
 </project>
